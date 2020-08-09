@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Appointment</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+  <div class="jumbotron">
+    <h1 style="text-align:center">OU Hospitals</h1>      
+    <p style="text-align:center">please be sick for our well being</p>
+  </div>
+     <div style="padding-left:20%;" class="container">
+      <h3 style="padding-left:20%;padding-bottom:5%">APPOINTMENT</h3>
+    	<form>
+  
+     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample3">Patientid</label>
+  
+  </div>
+  <div class="form-group">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label ">
+    <input class="mdl-textfield__input" type="text" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">Patientname</label>
+  </div>
+  </div>
+   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input " type="text" id="sample3">
+    <label class="mdl-textfield__label" for="sample3">Age</label>
+  
+  </div>
+  <div class="form-group">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+    <label class="mdl-textfield__label" for="sample4">Phone Number</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+  </div>
+   <div class="form-group">
+  <label for="sel1">Appointment with:</label>
+  <select class="form-control" id="sel1">
+    <option>Doctor1</option>
+    <option>Doctor2</option>
+    <option>Doctor3</option>
+    <option>Doctor4</option>
+  </select>
+</div>
+<div class="form-group">
+  <div class="mdl-textfield mdl-js-textfield">
+    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+    <label class="mdl-textfield__label" for="sample5">Problem</label>
+  </div>
+</div>
+
+  
+ <div style="padding-left:30%"><button type="submit" class="btn btn-primary">Make Bill</button></div>
+</form>
+    </div> 
+
+     <button type="button">byeeee</button> 
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>
