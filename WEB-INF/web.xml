@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ 
+
+ <servlet>
+   <servlet-name>s1</servlet-name>
+   <servlet-class>onservlet1</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s1</servlet-name>
+   <url-pattern>/login</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+   <servlet-name>s2</servlet-name>
+   <servlet-class>onservletappointment</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s2</servlet-name>
+   <url-pattern>/appointment</url-pattern>
+ </servlet-mapping>
+ <servlet>
+   <servlet-name>s3</servlet-name>
+   <servlet-class>onservletward</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s3</servlet-name>
+   <url-pattern>/ward</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+   <servlet-name>s5</servlet-name>
+   <servlet-class>onservletmedical</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s5</servlet-name>
+   <url-pattern>/medical</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+   <servlet-name>s6</servlet-name>
+   <servlet-class>onservletappointmentbill</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s6</servlet-name>
+   <url-pattern>/appointmentbill</url-pattern>
+ </servlet-mapping>
+
+  <servlet>
+   <servlet-name>s7</servlet-name>
+   <servlet-class>onservletwardbill</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s7</servlet-name>
+   <url-pattern>/wardbill</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+   <servlet-name>s8</servlet-name>
+   <servlet-class>onservletdiag</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s8</servlet-name>
+   <url-pattern>/diag</url-pattern>
+ </servlet-mapping>
+ <servlet>
+   <servlet-name>s9</servlet-name>
+   <servlet-class>onservletbillfinal</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+   <servlet-name>s9</servlet-name>
+   <url-pattern>/final</url-pattern>
+ </servlet-mapping>
+
+ 
+</web-app>
